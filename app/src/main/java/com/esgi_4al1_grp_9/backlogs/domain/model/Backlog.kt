@@ -2,7 +2,7 @@ package com.esgi_4al1_grp_9.backlogs.domain.model
 
 import java.time.LocalDate
 
-data class Backlog(
+data class BacklogEntry(
     val gameId: Int,
     val status: GameStatus,
     val personalRating: Int?,

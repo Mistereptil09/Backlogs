@@ -11,8 +11,8 @@ data class Game(
     val rating: Float,
     val ratingsCount: Int,
     val metacriticScore: Int?,
-    val genres: List<String>,
-    val platforms: List<String>,
+    val genres: List<Genre>,
+    val platforms: List<Platform>,
     val description: String? = null,
     val developers: List<String> = emptyList()
 )

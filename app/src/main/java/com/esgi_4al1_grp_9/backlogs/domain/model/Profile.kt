@@ -5,6 +5,6 @@ import java.time.LocalDate
 data class UserProfile(
     val username: String,
     val createdAt: LocalDate,
-    val favoriteGenres: List<String> = emptyList(),
-    val preferredPlatforms: List<String> = emptyList()
+    val favoriteGenres: List<Genre> = emptyList(),
+    val preferredPlatforms: List<Platform> = emptyList()
 )
